@@ -25,6 +25,7 @@ library(ggpubr)
 library(cowplot)
 library(here)
 library(ggstatsplot)
+library(gt)
 theme_set(theme_minimal())
 ```
 
