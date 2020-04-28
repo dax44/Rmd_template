@@ -1,0 +1,66 @@
+\usepackage{hyperref}
+\usetheme[pageofpages=of,% String used between the current page and the
+                         % total page count.
+          bullet=circle,% Use circles instead of squares for bullets.
+          titleline=true,% Show a line below the frame title.
+          alternativetitlepage=true,% Use the fancy title page.
+          titlepagelogo=logo2,% Logo for the first page.
+          watermark=pollub-jasny,% Watermark used in every page.
+          watermarkheight=50px,% Height of the watermark.
+          watermarkheightmult=8,% The watermark image is 4 times bigger
+                                % than watermarkheight.
+          ]{Torino}
+\setbeamertemplate{theorem}[ams style]
+\setbeamertemplate{theorems}[numbered]
+\setbeamerfont{title}{size={\fontsize{20}{15}}}
+\setbeamerfont{author}{size={\fontsize{10}{5}}}
+\usepackage{ragged2e}
+
+%\usepackage[cp1250]{inputenc}
+\usepackage[MeX]{polski}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{url}
+
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{caption}
+\usepackage{tikzsymbols}
+
+
+\newcommand{\zb}[1]{\buildrel #1 \over \longrightarrow}
+\renewcommand{\P}{\mathrm{P}}
+\newcommand{\PW}[1]{\mathrm{P}^\mathcal{#1}}
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\EW}[1]{\mathrm{E}^\mathcal{#1}}
+\newcommand{\Lp}[1]{L_{\mathcal{F}}^#1}
+\newcommand{\row}[1]{\buildrel \text{#1} \over =}
+\newcommand{\LP}[2]{L^#1(\Omega,\mathcal{#2},\P)}
+\newcommand{\lp}[1]{L(\Omega,\mathcal{#1},\P)}
+\newcommand{\pp}{\text{p.p.}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\wtt}{wtedy i tylko wtedy, gdy }
+\renewcommand{\arraystretch}{1.4}
+
+%% change fontsize of R code
+%\let\oldShaded\Shaded
+%\let\endoldShaded\endShaded
+%\renewenvironment{Shaded}{\footnotesize\oldShaded}{\endoldShaded}
+
+%% change fontsize of output
+\let\oldverbatim\verbatim
+\let\endoldverbatim\endverbatim
+\renewenvironment{verbatim}{\footnotesize\oldverbatim}{\endoldverbatim}
+
+
+
+

@@ -1,0 +1,21 @@
+---
+title: "Title"
+subtitle: "Subtitle"
+author: "Dariusz Majerek"
+date: "date"
+bibliography: literatura.bib
+output:
+   beamer_presentation: 
+    includes:
+      in_header: header.tex
+    keep_tex: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = F, message = F, fig.align = 'center')
+options(width = 70)
+```
+
+## Rozdział
